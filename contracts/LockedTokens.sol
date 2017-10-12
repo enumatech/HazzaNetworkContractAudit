@@ -21,14 +21,6 @@ contract LockedTokens is HazzaNetworkTokenConfig {
     using SafeMath for uint;
 
     // ------------------------------------------------------------------------
-    // locked totals
-    // tokens
-    // ------------------------------------------------------------------------
-    uint public constant TOKENS_LOCKED_6M_TOTAL = 14000000 * DECIMALSFACTOR;
-    uint public constant TOKENS_LOCKED_8M_TOTAL = 26000000 * DECIMALSFACTOR;
-    uint public constant TOKENS_LOCKED_12M_TOTAL = 26000000 * DECIMALSFACTOR;
-    
-    // ------------------------------------------------------------------------
     // Current totalSupply of locked tokens
     // ------------------------------------------------------------------------
     uint public totalSupplyLocked6M;
@@ -77,7 +69,6 @@ contract LockedTokens is HazzaNetworkTokenConfig {
     function add6M(address account, uint value) onlyTokenContract {
         balancesLocked6M[account] = balancesLocked6M[account].add(value);
         totalSupplyLocked6M = totalSupplyLocked6M.add(value);
-        assert(totalSupplyLocked6M <= TOKENS_LOCKED_6M_TOTAL);
     }
 
 
@@ -87,7 +78,6 @@ contract LockedTokens is HazzaNetworkTokenConfig {
     function add8M(address account, uint value) onlyTokenContract {
         balancesLocked8M[account] = balancesLocked8M[account].add(value);
         totalSupplyLocked8M = totalSupplyLocked8M.add(value);
-        assert(totalSupplyLocked8M <= TOKENS_LOCKED_8M_TOTAL);
     }
 
     // ------------------------------------------------------------------------
@@ -96,7 +86,6 @@ contract LockedTokens is HazzaNetworkTokenConfig {
     function add12M(address account, uint value) onlyTokenContract {
         balancesLocked12M[account] = balancesLocked12M[account].add(value);
         totalSupplyLocked12M = totalSupplyLocked12M.add(value);
-        assert(totalSupplyLocked12M <= TOKENS_LOCKED_12M_TOTAL);
     }
 
     // ------------------------------------------------------------------------
@@ -135,21 +124,6 @@ contract LockedTokens is HazzaNetworkTokenConfig {
     // ------------------------------------------------------------------------
     function totalSupplyLocked() constant returns (uint) {
         return totalSupplyLocked6M + totalSupplyLocked8M + totalSupplyLocked12M;
-    }
-
-    // ------------------------------------------------------------------------
-    // validate totals of locked tokens
-    // ------------------------------------------------------------------------
-    function validateTotals() returns (bool) {
-        if (
-            totalSupplyLocked6M == TOKENS_LOCKED_6M_TOTAL
-            && totalSupplyLocked8M == TOKENS_LOCKED_8M_TOTAL
-            && totalSupplyLocked12M == TOKENS_LOCKED_12M_TOTAL
-        ) {
-            return true;
-        } else {
-            return false;
-        }
     }
 
     // ------------------------------------------------------------------------

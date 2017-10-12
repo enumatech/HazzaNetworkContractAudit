@@ -27,7 +27,7 @@ Website: [http://hazza.network/](http://hazza.network/)
 
 * Token Identifier
   * symbol `HAZ`
-  * name `Hazzet Network Token`
+  * name `Hazza Network Token`
   * decimals `18`
 
 * Total Suppy of Tokens

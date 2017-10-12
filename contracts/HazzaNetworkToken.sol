@@ -178,9 +178,6 @@ contract HazzaNetworkToken is ERC20Token, HazzaNetworkTokenConfig {
         // Can only finalise once
         require(!finalised);
 
-        // Check locked total totals
-        assert(lockedTokens.validateTotals());
-
         // Allocate locked and premined tokens
         balances[address(lockedTokens)] = balances[address(lockedTokens)].
             add(lockedTokens.totalSupplyLocked());
@@ -203,7 +200,9 @@ contract HazzaNetworkToken is ERC20Token, HazzaNetworkTokenConfig {
         totalSupply = totalSupply.add(balance);
         kycRequired[participant] = kycRequiredFlag;
         Transfer(0x0, participant, balance);
+        TokenUnlockedCreated(participant,balance,kycRequiredFlag);
     }
+    event TokenUnlockedCreated(address indexed participant, uint balance, bool kycRequiredFlag);
 
     // ------------------------------------------------------------------------
     // Hazza Network to add locked token balance before the contract is finalized
@@ -212,8 +211,10 @@ contract HazzaNetworkToken is ERC20Token, HazzaNetworkTokenConfig {
         require(!finalised);
         require(now < START_DATE);
         require(balance > 0);
-        return lockedTokens.add6M(participant,balance);
+        lockedTokens.add6M(participant,balance);
+        TokenLocked6MCreated(participant,balance);
     }
+    event TokenLocked6MCreated(address indexed participant, uint balance);
 
     // ------------------------------------------------------------------------
     // Hazza Network to add locked token balance before the contract is finalized
@@ -222,8 +223,10 @@ contract HazzaNetworkToken is ERC20Token, HazzaNetworkTokenConfig {
         require(!finalised);
         require(now < START_DATE);
         require(balance > 0);
-        return lockedTokens.add8M(participant,balance);
+        lockedTokens.add8M(participant,balance);
+        TokenLocked8MCreated(participant,balance);
     }
+    event TokenLocked8MCreated(address indexed participant, uint balance);
 
     // ------------------------------------------------------------------------
     // Hazza Network to add locked token balance before the contract is finalized
@@ -232,8 +235,10 @@ contract HazzaNetworkToken is ERC20Token, HazzaNetworkTokenConfig {
         require(!finalised);
         require(now < START_DATE);
         require(balance > 0);
-        return lockedTokens.add12M(participant,balance);
+        lockedTokens.add12M(participant,balance);
+        TokenLocked12MCreated(participant,balance);
     }
+    event TokenLocked12MCreated(address indexed participant, uint balance);
 
     // ------------------------------------------------------------------------
     // Transfer the balance from owner's account to another account, with KYC

@@ -10,7 +10,7 @@ pragma solidity ^0.4.11;
 // ----------------------------------------------------------------------------
 
 // ----------------------------------------------------------------------------
-// openANX crowdsale token smart contract - configuration parameters
+// HazzaNetwork crowdsale token smart contract - configuration parameters
 // ----------------------------------------------------------------------------
 contract HazzaNetworkTokenConfig {
 
@@ -28,23 +28,21 @@ contract HazzaNetworkTokenConfig {
     uint public constant DECIMALSFACTOR = 10**uint(DECIMALS);
 
     // ------------------------------------------------------------------------
-    // total tokens
-    // ------------------------------------------------------------------------
-    uint public constant TOKENS_TOTAL = 100000000 * DECIMALSFACTOR;
-
-    // ------------------------------------------------------------------------
     // Token activation start date
     // Do not use the `now` function here
-    // Start - Thursday, 22-Jun-17 13:00:00 UTC / 1pm GMT 22 June 2017
+    // Start - Nov 8 0000 HKT; Nov 7 1600 GMT
     // ------------------------------------------------------------------------
-    uint public constant START_DATE = 1498136400;
+    uint public constant START_DATE = 1510070400;
 
     // ------------------------------------------------------------------------
     // dates for locked tokens
     // Do not use the `now` function here. Will specify exact epoch for each
+    // 6M  1/5/2018 0000 HKT; 30/4/2018 1600 GMT
+    // 8M  1/7/2018 0000 HKT - 30/6/2018 1600 GMT
+    // 12M 1/11/2018 0000 HKT; 31/10/2018 1600 GMT
     // ------------------------------------------------------------------------
-    uint public constant LOCKED_6M_DATE = 1498136400;
-    uint public constant LOCKED_8M_DATE = 1498136400;
-    uint public constant LOCKED_12M_DATE = 1498136400;
+    uint public constant LOCKED_6M_DATE = 1525104000;
+    uint public constant LOCKED_8M_DATE = 1530374400;
+    uint public constant LOCKED_12M_DATE = 1541001600;
 
 }
