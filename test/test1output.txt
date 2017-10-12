@@ -1,0 +1,1116 @@
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.6.7-stable-ab5646c5/linux-amd64/go1.8.1
+coinbase: 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e
+at block: 2241 (Thu, 12 Oct 2017 09:59:22 HKT)
+ datadir: /home/user/dev/hazza/HazzaNetworkToken/test/testchain
+ modules: admin:1.0 debug:1.0 eth:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> 
+true
+> 
+true
+> 
+> 
+> 
+> 
+> 
+> 
+DATA: tokenABI=[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_amount","type":"uint256"}],"name":"approve","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"lockedTokens","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LOCKED_12M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"}],"name":"kycVerify","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"finalised","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked8M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"DECIMALS","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"START_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"}],"name":"addTokenBalance8MLocked","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"acceptOwnership","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_amount","type":"uint256"}],"name":"burnFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked12M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"},{"name":"kycRequiredFlag","type":"bool"}],"name":"addTokenBalance","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"DECIMALSFACTOR","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"NAME","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"finalise","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"}],"name":"addTokenBalance12MLocked","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transfer","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked8M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"kycRequired","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked12M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyUnlocked","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked6M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LOCKED_8M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"newOwner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"tokenAddress","type":"address"},{"name":"amount","type":"uint256"}],"name":"transferAnyERC20Token","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LOCKED_6M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked6M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"SYMBOL","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"}],"name":"addTokenBalance6MLocked","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"},{"indexed":false,"name":"kycRequiredFlag","type":"bool"}],"name":"TokenUnlockedCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"TokenLocked6MCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"TokenLocked8MCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"TokenLocked12MCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"}],"name":"KycVerified","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_owner","type":"address"},{"indexed":true,"name":"_spender","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Approval","type":"event"}]
+> 
+DATA: lockedTokensAbi=[{"constant":true,"inputs":[],"name":"LOCKED_12M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"unlock8M","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"balancesLocked8M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked8M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"DECIMALS","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"START_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"unlock6M","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"account","type":"address"},{"name":"value","type":"uint256"}],"name":"add8M","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"balancesLocked12M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"tokenContract","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked12M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"tokenContractAddress","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"unlock12M","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"DECIMALSFACTOR","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"NAME","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"account","type":"address"},{"name":"value","type":"uint256"}],"name":"add6M","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked8M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked12M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"balancesLocked6M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked6M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LOCKED_8M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"account","type":"address"},{"name":"value","type":"uint256"}],"name":"add12M","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LOCKED_6M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked6M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"SYMBOL","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"inputs":[{"name":"_tokenContract","type":"address"}],"payable":false,"type":"constructor"}]
+> 
+> 
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       20.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                                     0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+RESULT: Test 1.1 Deploy Token Contract
+> 
+> 
+{"abi":[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_amount","type":"uint256"}],"name":"approve","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"lockedTokens","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LOCKED_12M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"}],"name":"kycVerify","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"finalised","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked8M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"DECIMALS","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"START_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"}],"name":"addTokenBalance8MLocked","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"acceptOwnership","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_amount","type":"uint256"}],"name":"burnFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked12M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"},{"name":"kycRequiredFlag","type":"bool"}],"name":"addTokenBalance","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"DECIMALSFACTOR","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"NAME","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"finalise","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"}],"name":"addTokenBalance12MLocked","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transfer","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked8M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"kycRequired","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked12M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyUnlocked","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked6M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LOCKED_8M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"newOwner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"tokenAddress","type":"address"},{"name":"amount","type":"uint256"}],"name":"transferAnyERC20Token","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LOCKED_6M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked6M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"SYMBOL","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"}],"name":"addTokenBalance6MLocked","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"},{"indexed":false,"name":"kycRequiredFlag","type":"bool"}],"name":"TokenUnlockedCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"TokenLocked6MCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"TokenLocked8MCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"TokenLocked12MCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"}],"name":"KycVerified","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_owner","type":"address"},{"indexed":true,"name":"_spender","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Approval","type":"event"}],"eth":{"_requestManager":{"polls":{},"provider":{},"timeout":null},"accounts":["0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e","0xa11aae29840fbb5c86e6fd4cf809eba183aef433","0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976","0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","0xa44a08d3f6933c69212114bb66e2df1813651844","0xa55a151eb00fded1634d27d1127b4be4627079ea","0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9","0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec","0xa88a05d2b88283ce84c8325760b72a64591279a2","0xa99a0ae3354c06b1459fd441a32a3f71005d7da0","0xaaaa9de1e6c564446ebca0fd102d8bd92093c756","0xabba43e7594e3b76afb157989e93c6621497fd4b","0xacca534c9f62ab495bd986e002ddf0f054caae4f","0xadda9b762a00ff12711113bfdc36958b73d7f915","0xaeea63b5479b50f79583ec49dacdcf86ddeff392","0xaffa4d3a80add8ce4018540e056dacb649589394","0xbbbb34fa53a801b5f298744490a1596438bbbe50"],"blockNumber":2245,"coinbase":"0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e","compile":{},"gasPrice":"18000000000","hashrate":50620,"mining":true,"pendingTransactions":[],"protocolVersion":"0x3f","syncing":false}}
+> 
+> 
+> 
+... 
+...... 
+......... 
+............ 
+............ 
+............ 
+............ 
+............ 
+............ 
+............ 
+............ 
+......... 
+...... 
+... 
+> 
+... 
+> 
+DATA: tokenAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+RESULT: tokenAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660 gas=6000000 gasUsed=3287684 costETH=0.059178312 costUSD=22.51083810168 @ ETH/USD=380.39 gasPrice=18000000000 block=2247 txId=0x5973da65da19ed6af0bba23f1a8d962ea315dafdd3af6e58822423833b902eea
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       30.059178312000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.059178312000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                                     0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 1.1 Deploy Token Contract
+1
+> 
+RESULT: token.symbol=HAZ
+RESULT: token.name=Hazza Network Token
+RESULT: token.decimals=18
+RESULT: token.DECIMALSFACTOR=1000000000000000000
+RESULT: token.START_DATE=1507773631 Thu, 12 Oct 2017 02:00:31 UTC / Thu, 12 Oct 2017 02:00:31 GMT
+RESULT: token.LOCKED_6M_DATE=1507773811 Thu, 12 Oct 2017 02:03:31 UTC / Thu, 12 Oct 2017 02:03:31 GMT
+RESULT: token.LOCKED_8M_DATE=1507773871 Thu, 12 Oct 2017 02:04:31 UTC / Thu, 12 Oct 2017 02:04:31 GMT
+RESULT: token.LOCKED_12M_DATE=1507773931 Thu, 12 Oct 2017 02:05:31 UTC / Thu, 12 Oct 2017 02:05:31 GMT
+> 
+RESULT: token.finalised=false
+RESULT: token.totalSupply=0
+RESULT: token.totalSupplyLocked(6M/8M/12M)=0 / 0 / 0
+RESULT: token.totalSupplyLocked=0
+RESULT: token.totalSupplyUnlocked=0
+RESULT: lockedToken.totalSupplyLocked6M=0
+RESULT: lockedToken.totalSupplyLocked8M=0
+RESULT: lockedToken.totalSupplyLocked12M=0
+RESULT: lockedToken.totalSupplyLocked=0
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+> 
+RESULT: 
+> 
+{"_eth":{"_requestManager":{"polls":{},"provider":{},"timeout":null},"accounts":["0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e","0xa11aae29840fbb5c86e6fd4cf809eba183aef433","0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976","0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","0xa44a08d3f6933c69212114bb66e2df1813651844","0xa55a151eb00fded1634d27d1127b4be4627079ea","0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9","0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec","0xa88a05d2b88283ce84c8325760b72a64591279a2","0xa99a0ae3354c06b1459fd441a32a3f71005d7da0","0xaaaa9de1e6c564446ebca0fd102d8bd92093c756","0xabba43e7594e3b76afb157989e93c6621497fd4b","0xacca534c9f62ab495bd986e002ddf0f054caae4f","0xadda9b762a00ff12711113bfdc36958b73d7f915","0xaeea63b5479b50f79583ec49dacdcf86ddeff392","0xaffa4d3a80add8ce4018540e056dacb649589394","0xbbbb34fa53a801b5f298744490a1596438bbbe50"],"blockNumber":2247,"coinbase":"0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e","compile":{},"gasPrice":"18000000000","hashrate":50207,"mining":true,"pendingTransactions":[],"protocolVersion":"0x3f","syncing":false},"abi":[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_amount","type":"uint256"}],"name":"approve","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"lockedTokens","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LOCKED_12M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"}],"name":"kycVerify","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"finalised","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked8M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"DECIMALS","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"START_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"}],"name":"addTokenBalance8MLocked","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"acceptOwnership","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_amount","type":"uint256"}],"name":"burnFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked12M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"},{"name":"kycRequiredFlag","type":"bool"}],"name":"addTokenBalance","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"DECIMALSFACTOR","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"NAME","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"finalise","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"}],"name":"addTokenBalance12MLocked","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transfer","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked8M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"kycRequired","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked12M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyUnlocked","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked6M","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LOCKED_8M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"newOwner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"tokenAddress","type":"address"},{"name":"amount","type":"uint256"}],"name":"transferAnyERC20Token","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"LOCKED_6M_DATE","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"account","type":"address"}],"name":"balanceOfLocked","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupplyLocked6M","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"SYMBOL","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"participant","type":"address"},{"name":"balance","type":"uint256"}],"name":"addTokenBalance6MLocked","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"},{"indexed":false,"name":"kycRequiredFlag","type":"bool"}],"name":"TokenUnlockedCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"TokenLocked6MCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"TokenLocked8MCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"TokenLocked12MCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"participant","type":"address"}],"name":"KycVerified","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_owner","type":"address"},{"indexed":true,"name":"_spender","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Approval","type":"event"}],"address":"0x2484679c29325eaf2f2e91d661e5413d47c04660","transactionHash":"0x5973da65da19ed6af0bba23f1a8d962ea315dafdd3af6e58822423833b902eea"}
+> 
+> 
+> 
+> 
+> 
+RESULT: Test 1.2 tokens created
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+... 
+> 
+RESULT: tx1_2_1 gas=4000000 gasUsed=88745 costETH=0.00159741 costUSD=0.6076387899 @ ETH/USD=380.39 gasPrice=18000000000 block=2249 txId=0xea7377cfb82c5aea1205274f50d005d6d821a79727d463fd322c41532ddf0462
+> 
+RESULT: tx1_2_2 gas=4000000 gasUsed=73745 costETH=0.00132741 costUSD=0.5049334899 @ ETH/USD=380.39 gasPrice=18000000000 block=2249 txId=0xb62d3ad0583462283f6fcb15a60a1ef708695f1dc4ae00b20767837344496633
+> 
+RESULT: tx1_2_3 gas=4000000 gasUsed=73745 costETH=0.00132741 costUSD=0.5049334899 @ ETH/USD=380.39 gasPrice=18000000000 block=2249 txId=0xec7c8284facf5e210ccb8bd8c0cb92e2a9237361e1f42435919ee89b2af53a0d
+> 
+RESULT: tx1_2_4 gas=4000000 gasUsed=73809 costETH=0.001328562 costUSD=0.50537169918 @ ETH/USD=380.39 gasPrice=18000000000 block=2249 txId=0x66a7867c882fdfe371155b0c760b09f5421e8cf3bd769ab5484aae66ef2423f9
+> 
+RESULT: tx1_2_5 gas=4000000 gasUsed=73809 costETH=0.001328562 costUSD=0.50537169918 @ ETH/USD=380.39 gasPrice=18000000000 block=2249 txId=0x068b3b1feed36521cb88f31c342e699b2fdf33ac6a6d50630633bba5e4f728c6
+> 
+RESULT: tx1_2_6 gas=4000000 gasUsed=67687 costETH=0.001218366 costUSD=0.46345424274 @ ETH/USD=380.39 gasPrice=18000000000 block=2249 txId=0x067a54553b2c3179815be2d34443128e30743e9247c66eeb32a4d587b25c82b1
+> 
+RESULT: tx1_2_7 gas=4000000 gasUsed=66953 costETH=0.001205154 costUSD=0.45842853006 @ ETH/USD=380.39 gasPrice=18000000000 block=2249 txId=0x7b7894d88cf42e16e911e05c11134c8f8612172c84b2499e6dc7f0066d236860
+> 
+RESULT: tx1_2_8 gas=4000000 gasUsed=67461 costETH=0.001214298 costUSD=0.46190681622 @ ETH/USD=380.39 gasPrice=18000000000 block=2249 txId=0x91096f99ff0a26eb63bcfa7178425c926ef4fcdd25d00141c3d2f8e1895437a8
+> 
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       40.069725484000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.069725484000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000   200000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   200000000.000000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000  3000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  3000000000.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000 40000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000000000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915        0.000000000000000000           0.000000000000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392        0.000000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43220000000.000000000000000000     2000000.000000000000000000      300000.000000000000000000       40000.000000000000000000 43222340000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+> 
+RESULT: PASS Test 1.2 tokens created - contributorAccountUnLocked
+1
+> 
+RESULT: PASS Test 1.2 tokens created - account2
+1
+> 
+RESULT: PASS Test 1.2 tokens created - account3
+1
+> 
+RESULT: PASS Test 1.2 tokens created - account4
+1
+> 
+RESULT: PASS Test 1.2 tokens created - account5
+1
+> 
+RESULT: PASS Test 1.2 tokens created - contributorAccountLocked6M
+1
+> 
+RESULT: PASS Test 1.2 tokens created - contributorAccountLocked8M
+1
+> 
+RESULT: PASS Test 1.2 tokens created - contributorAccountLocked12M
+1
+> 
+> 
+RESULT: token.finalised=false
+RESULT: token.totalSupply=43220000000
+RESULT: token.totalSupplyLocked(6M/8M/12M)=0 / 0 / 0
+RESULT: token.totalSupplyLocked=0
+RESULT: token.totalSupplyUnlocked=0
+RESULT: lockedToken.totalSupplyLocked6M=2000000
+RESULT: lockedToken.totalSupplyLocked8M=300000
+RESULT: lockedToken.totalSupplyLocked12M=40000
+RESULT: lockedToken.totalSupplyLocked=2340000
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+RESULT: TokenUnlockedCreated Event 0: participant=0xacca534c9f62ab495bd986e002ddf0f054caae4f balance=10000000 kycRequired=true block=2249
+RESULT: TokenUnlockedCreated Event 1: participant=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976 balance=10000000 kycRequired=true block=2249
+RESULT: TokenUnlockedCreated Event 2: participant=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 balance=200000000 kycRequired=true block=2249
+RESULT: TokenUnlockedCreated Event 3: participant=0xa44a08d3f6933c69212114bb66e2df1813651844 balance=3000000000 kycRequired=true block=2249
+RESULT: TokenUnlockedCreated Event 4: participant=0xa55a151eb00fded1634d27d1127b4be4627079ea balance=40000000000 kycRequired=true block=2249
+RESULT: TokenUnlockedCreated Event 0: participant=0xadda9b762a00ff12711113bfdc36958b73d7f915 balance=2000000 block=2249
+RESULT: TokenUnlockedCreated Event 0: participant=0xaeea63b5479b50f79583ec49dacdcf86ddeff392 balance=300000 block=2249
+RESULT: TokenUnlockedCreated Event 0: participant=0xaffa4d3a80add8ce4018540e056dacb649589394 balance=40000 block=2249
+RESULT: Transfer Event 0: from=0x0000000000000000000000000000000000000000 to=0xacca534c9f62ab495bd986e002ddf0f054caae4f value=10000000 block=2249
+RESULT: Transfer Event 1: from=0x0000000000000000000000000000000000000000 to=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976 value=10000000 block=2249
+RESULT: Transfer Event 2: from=0x0000000000000000000000000000000000000000 to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 value=200000000 block=2249
+RESULT: Transfer Event 3: from=0x0000000000000000000000000000000000000000 to=0xa44a08d3f6933c69212114bb66e2df1813651844 value=3000000000 block=2249
+RESULT: Transfer Event 4: from=0x0000000000000000000000000000000000000000 to=0xa55a151eb00fded1634d27d1127b4be4627079ea value=40000000000 block=2249
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+... 
+RESULT: Waiting until start date at 1507773631 Thu, 12 Oct 2017 10:00:31 HKT currentDate=Thu, 12 Oct 2017 10:00:24 HKT
+> 
+... 
+> 
+... 
+RESULT: Waited until start date at 1507773631 Thu, 12 Oct 2017 10:00:31 HKT currentDate=Thu, 12 Oct 2017 10:00:31 HKT
+> 
+> 
+> 
+> 
+RESULT: Test 2.1 Cannot Move Tokens Without Finalisation And KYC Verification
+> 
+> 
+> 
+> 
+> 
+... 
+> 
+> 
+> 
+... 
+> 
+RESULT: tx2_1_1 gas=100000 gasUsed=100000 costETH=0.0018 costUSD=0.684702 @ ETH/USD=380.39 gasPrice=18000000000 block=2253 txId=0xeffd4385a93c5ec529c048e5fe54590155b268bee19a1cf36aaae733c7255451
+> 
+RESULT: tx2_1_2 gas=100000 gasUsed=100000 costETH=0.0018 costUSD=0.684702 @ ETH/USD=380.39 gasPrice=18000000000 block=2253 txId=0xa59dacd63b3de0aa075ad42d0b75a83141e49c89f424ceb56024216d18ddc868
+> 
+RESULT: tx2_1_3 gas=100000 gasUsed=45424 costETH=0.000817632 costUSD=0.31101903648 @ ETH/USD=380.39 gasPrice=18000000000 block=2253 txId=0xddc232aaa0a3057dc0e082d46c383c1b8bd54799f067aaebd5eadfd94038d9a3
+> 
+RESULT: tx2_1_4 gas=100000 gasUsed=45488 costETH=0.000818784 costUSD=0.31145724576 @ ETH/USD=380.39 gasPrice=18000000000 block=2253 txId=0x9bb5b5dfd9731fd72996c0d62e292937f93a4e1163b586dadfde8829af51daca
+> 
+RESULT: tx2_1_5 gas=100000 gasUsed=100000 costETH=0.0018 costUSD=0.684702 @ ETH/USD=380.39 gasPrice=18000000000 block=2255 txId=0x89c359c2edc6225d655a2e40fd7e97cc4eadcfc953e3b19195d0a856664b3a97
+> 
+RESULT: tx2_1_6 gas=100000 gasUsed=100000 costETH=0.0018 costUSD=0.684702 @ ETH/USD=380.39 gasPrice=18000000000 block=2255 txId=0xbca2abaacc06f21458042fff6c8971d9afbc807cd7aa5abcd61f523e4c8f8177
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       70.078561900000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.069725484000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.001800000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000817632000000000   200000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   200000000.000000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.002618784000000000  3000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  3000000000.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000 40000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000000000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.001800000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.001800000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915        0.000000000000000000           0.000000000000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392        0.000000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43220000000.000000000000000000     2000000.000000000000000000      300000.000000000000000000       40000.000000000000000000 43222340000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 2.1 Cannot Move Tokens Without Finalisation And KYC Verification - transfer 0.000001 HAZ ac2 -> ac5. CHECK no movement
+1
+> 
+RESULT: PASS Test 2.1 Cannot Move Tokens Without Finalisation And KYC Verification - transfer 0.0002 HAZ ac4 -> ac6. CHECK no movement
+1
+> 
+RESULT: PASS Test 2.1 Cannot Move Tokens Without Finalisation And KYC Verification - approve 0.03 HAZ ac3 -> ac7
+1
+> 
+RESULT: PASS Test 2.1 Cannot Move Tokens Without Finalisation And KYC Verification - approve 4 HAZ ac4 -> ac8
+1
+> 
+RESULT: PASS Test 2.1 Cannot Move Tokens Without Finalisation And KYC Verification - transferFrom 0.03 HAZ ac3 -> ac5. CHECK no movement
+1
+> 
+RESULT: PASS Test 2.1 Cannot Move Tokens Without Finalisation And KYC Verification - transferFrom 4 HAZ ac4 -> ac6. CHECK no movement
+1
+> 
+RESULT: token.finalised=false
+RESULT: token.totalSupply=43220000000
+RESULT: token.totalSupplyLocked(6M/8M/12M)=0 / 0 / 0
+RESULT: token.totalSupplyLocked=0
+RESULT: token.totalSupplyUnlocked=0
+RESULT: lockedToken.totalSupplyLocked6M=2000000
+RESULT: lockedToken.totalSupplyLocked8M=300000
+RESULT: lockedToken.totalSupplyLocked12M=40000
+RESULT: lockedToken.totalSupplyLocked=2340000
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+RESULT: Approval Event 0: owner=0xa44a08d3f6933c69212114bb66e2df1813651844 spender=0xa88a05d2b88283ce84c8325760b72a64591279a2 4 block=2253
+RESULT: Approval Event 1: owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 spender=0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec 0.03 block=2253
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+> 
+RESULT: Test 3.1 Finalise
+> 
+> 
+... 
+> 
+RESULT: tx3_1 gas=4000000 gasUsed=54722 costETH=0.000984996 costUSD=0.37468262844 @ ETH/USD=380.39 gasPrice=18000000000 block=2258 txId=0x0fc05ff3bbfa6443dfded7f18a24582ece95428a857d079f5928a4cbf6ea1c29
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       85.079546896000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.070710480000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.001800000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000817632000000000   200000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   200000000.000000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.002618784000000000  3000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  3000000000.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000 40000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000000000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.001800000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.001800000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915        0.000000000000000000           0.000000000000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392        0.000000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000     2340000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     2340000.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43222340000.000000000000000000     2000000.000000000000000000      300000.000000000000000000       40000.000000000000000000 43224680000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 3.1 Finalise
+1
+> 
+RESULT: token.finalised=true
+RESULT: token.totalSupply=43222340000
+RESULT: token.totalSupplyLocked(6M/8M/12M)=2000000 / 300000 / 40000
+RESULT: token.totalSupplyLocked=2340000
+RESULT: token.totalSupplyUnlocked=43220000000
+RESULT: lockedToken.totalSupplyLocked6M=2000000
+RESULT: lockedToken.totalSupplyLocked8M=300000
+RESULT: lockedToken.totalSupplyLocked12M=40000
+RESULT: lockedToken.totalSupplyLocked=2340000
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+> 
+RESULT: Test 4.1 KYC Verify
+> 
+> 
+> 
+... 
+> 
+RESULT: tx4_1_1 gas=4000000 gasUsed=14715 costETH=0.00026487 costUSD=0.1007538993 @ ETH/USD=380.39 gasPrice=18000000000 block=2260 txId=0x55e1ca747550c8bb7e8b5d1cee7d829b9ef047d95fd729653bc830fcb3872c67
+> 
+RESULT: tx4_1_2 gas=4000000 gasUsed=14715 costETH=0.00026487 costUSD=0.1007538993 @ ETH/USD=380.39 gasPrice=18000000000 block=2260 txId=0xe247059e9c49395c16ff194c520e199198241d99fb0f68ce801b78f38a745847
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       95.080076636000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.071240220000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.001800000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000817632000000000   200000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   200000000.000000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.002618784000000000  3000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  3000000000.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000 40000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000000000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.001800000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.001800000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915        0.000000000000000000           0.000000000000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392        0.000000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000     2340000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     2340000.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43222340000.000000000000000000     2000000.000000000000000000      300000.000000000000000000       40000.000000000000000000 43224680000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 4.1 KYC Verify - account2
+1
+> 
+RESULT: PASS Test 4.1 KYC Verify - account3
+1
+> 
+RESULT: token.finalised=true
+RESULT: token.totalSupply=43222340000
+RESULT: token.totalSupplyLocked(6M/8M/12M)=2000000 / 300000 / 40000
+RESULT: token.totalSupplyLocked=2340000
+RESULT: token.totalSupplyUnlocked=43220000000
+RESULT: lockedToken.totalSupplyLocked6M=2000000
+RESULT: lockedToken.totalSupplyLocked8M=300000
+RESULT: lockedToken.totalSupplyLocked12M=40000
+RESULT: lockedToken.totalSupplyLocked=2340000
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+RESULT: KycVerified Event 0: participant=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976 block=2260
+RESULT: KycVerified Event 1: participant=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 block=2260
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+> 
+RESULT: Test 5.1 Move Tokens After Finalising
+> 
+RESULT: kyc(account3)=false
+> 
+RESULT: kyc(account4)=true
+> 
+> 
+> 
+> 
+> 
+... 
+> 
+> 
+> 
+... 
+> 
+RESULT: tx5_1_1 gas=100000 gasUsed=37204 costETH=0.000669672 costUSD=0.25473653208 @ ETH/USD=380.39 gasPrice=18000000000 block=2263 txId=0x8038cff9aedf5aa5921392dcd8f9cccf0b256ee285d32f6b65e4238207ccda81
+> 
+RESULT: tx5_1_2 gas=100000 gasUsed=100000 costETH=0.0018 costUSD=0.684702 @ ETH/USD=380.39 gasPrice=18000000000 block=2263 txId=0x00a7bac56709242e58a391d094addefbd9a9ae7fb4d9929cd20982b74e408a10
+> 
+RESULT: tx5_1_3 gas=100000 gasUsed=30424 costETH=0.000547632 costUSD=0.20831373648 @ ETH/USD=380.39 gasPrice=18000000000 block=2263 txId=0xa1d855d289589871274a69e0de877134d2e95d6195619239a3cbac692daf9a7e
+> 
+RESULT: tx5_1_4 gas=100000 gasUsed=30488 costETH=0.000548784 costUSD=0.20875194576 @ ETH/USD=380.39 gasPrice=18000000000 block=2263 txId=0x4e1691478e4201c42e86c775ce2327a6eeca0f47264308e0456cb6babaf245ef
+> 
+RESULT: tx5_1_5 gas=100000 gasUsed=44054 costETH=0.000792972 costUSD=0.30163861908 @ ETH/USD=380.39 gasPrice=18000000000 block=2265 txId=0x7c1ba22c6691276034aa584ef029303f2aa8fa8794b0cf084ab27e0a0051ac1d
+> 
+RESULT: tx5_1_6 gas=100000 gasUsed=100000 costETH=0.0018 costUSD=0.684702 @ ETH/USD=380.39 gasPrice=18000000000 block=2265 txId=0xf53b0ddda099a942f3a503552cc1ff98619639b3e9c0983e3db88dc1323ea3b1
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      120.086235696000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.071240220000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.002469672000000000     9999999.999999000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     9999999.999999000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.001365264000000000   199999999.970000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   199999999.970000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.004967568000000000  3000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  3000000000.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000 40000000000.000001000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000001000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.002592972000000000           0.030000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.030000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.003600000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915        0.000000000000000000           0.000000000000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392        0.000000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000     2340000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     2340000.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43222340000.000000000000000000     2000000.000000000000000000      300000.000000000000000000       40000.000000000000000000 43224680000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 5.1 Move Tokens After Finalising - transfer 0.000001 HAZ ac2 -> ac5. CHECK for movement
+1
+> 
+RESULT: PASS Test 5.1 Move Tokens After Finalising - transfer 0.0002 HAZ ac4 -> ac5. CHECK no movement
+1
+> 
+RESULT: PASS Test 5.1 Move Tokens After Finalising - approve 0.03 HAZ ac3 -> ac5
+1
+> 
+RESULT: PASS Test 5.1 Move Tokens After Finalising - approve 4 HAZ ac4 -> ac5
+1
+> 
+RESULT: PASS Test 5.1 Move Tokens After Finalising - transferFrom 0.03 HAZ ac3 -> ac5. CHECK for movement
+1
+> 
+RESULT: PASS Test 5.1 Move Tokens After Finalising - transferFrom 4 HAZ ac4 -> ac6. CHECK no movement
+1
+> 
+RESULT: token.finalised=true
+RESULT: token.totalSupply=43222340000
+RESULT: token.totalSupplyLocked(6M/8M/12M)=2000000 / 300000 / 40000
+RESULT: token.totalSupplyLocked=2340000
+RESULT: token.totalSupplyUnlocked=43220000000
+RESULT: lockedToken.totalSupplyLocked6M=2000000
+RESULT: lockedToken.totalSupplyLocked8M=300000
+RESULT: lockedToken.totalSupplyLocked12M=40000
+RESULT: lockedToken.totalSupplyLocked=2340000
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+RESULT: Approval Event 0: owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 spender=0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec 0.03 block=2263
+RESULT: Approval Event 1: owner=0xa44a08d3f6933c69212114bb66e2df1813651844 spender=0xa88a05d2b88283ce84c8325760b72a64591279a2 4 block=2263
+RESULT: Transfer Event 0: from=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976 to=0xa55a151eb00fded1634d27d1127b4be4627079ea value=0.000001 block=2263
+RESULT: Transfer Event 1: from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 to=0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec value=0.03 block=2265
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+... 
+RESULT: Waiting until locked 6M date at 1507773811 Thu, 12 Oct 2017 10:03:31 HKT currentDate=Thu, 12 Oct 2017 10:02:39 HKT
+> 
+... 
+> 
+... 
+RESULT: Waited until locked 6M date at 1507773811 Thu, 12 Oct 2017 10:03:31 HKT currentDate=Thu, 12 Oct 2017 10:03:31 HKT
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+RESULT: Test 6.1 Unlock 6M Locked Token
+> 
+> 
+... 
+> 
+RESULT: tx6_1_1 gas=4000000 gasUsed=31595 costETH=0.00056871 costUSD=0.2163315969 @ ETH/USD=380.39 gasPrice=18000000000 block=2280 txId=0x322734eded350374086115c2a2cf67fd1d2433bdd4a9a644f6234c506016d1ef
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      195.086804406000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.071240220000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.002469672000000000     9999999.999999000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     9999999.999999000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.001365264000000000   199999999.970000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   199999999.970000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.004967568000000000  3000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  3000000000.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000 40000000000.000001000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000001000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.002592972000000000           0.030000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.030000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.003600000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915       -0.000568710000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392        0.000000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000      340000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000      340000.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43222340000.000000000000000000           0.000000000000000000      300000.000000000000000000       40000.000000000000000000 43222680000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 6.1 Unlock 6M Locked Token
+1
+> 
+RESULT: token.finalised=true
+RESULT: token.totalSupply=43222340000
+RESULT: token.totalSupplyLocked(6M/8M/12M)=0 / 300000 / 40000
+RESULT: token.totalSupplyLocked=340000
+RESULT: token.totalSupplyUnlocked=43222000000
+RESULT: lockedToken.totalSupplyLocked6M=0
+RESULT: lockedToken.totalSupplyLocked8M=300000
+RESULT: lockedToken.totalSupplyLocked12M=40000
+RESULT: lockedToken.totalSupplyLocked=340000
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+RESULT: Transfer Event 0: from=0x2af991f1ee98b6c00860c1392f1f1d441c099b53 to=0xadda9b762a00ff12711113bfdc36958b73d7f915 value=2000000 block=2280
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+> 
+RESULT: Test 6.2 Unsuccessfully Unlock 8M Locked Token
+> 
+> 
+... 
+> 
+RESULT: tx6_2_1 gas=4000000 gasUsed=4000000 costETH=0.072 costUSD=27.38808 @ ETH/USD=380.39 gasPrice=18000000000 block=2283 txId=0x7e0834992e9e2a0d57cdc9528bf68000a94c18d83fae5d54a30be7021fb97549
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      210.158804406000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.071240220000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.002469672000000000     9999999.999999000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     9999999.999999000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.001365264000000000   199999999.970000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   199999999.970000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.004967568000000000  3000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  3000000000.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000 40000000000.000001000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000001000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.002592972000000000           0.030000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.030000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.003600000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915       -0.000568710000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392       -0.072000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000      340000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000      340000.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43222340000.000000000000000000           0.000000000000000000      300000.000000000000000000       40000.000000000000000000 43222680000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 6.2 Unsuccessfully Unlock 8M Locked Token
+1
+> 
+RESULT: token.finalised=true
+RESULT: token.totalSupply=43222340000
+RESULT: token.totalSupplyLocked(6M/8M/12M)=0 / 300000 / 40000
+RESULT: token.totalSupplyLocked=340000
+RESULT: token.totalSupplyUnlocked=43222000000
+RESULT: lockedToken.totalSupplyLocked6M=0
+RESULT: lockedToken.totalSupplyLocked8M=300000
+RESULT: lockedToken.totalSupplyLocked12M=40000
+RESULT: lockedToken.totalSupplyLocked=340000
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+RESULT: Test 6.3 Unsuccessfully Unlock 12M Locked Token
+> 
+> 
+... 
+> 
+RESULT: tx6_3_1 gas=4000000 gasUsed=4000000 costETH=0.072 costUSD=27.38808 @ ETH/USD=380.39 gasPrice=18000000000 block=2285 txId=0x8bc777fc3e223a63ceac89b7fd5fb54864cf2103b587ff3c41b670972389f4cb
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      220.230804406000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.071240220000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.002469672000000000     9999999.999999000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     9999999.999999000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.001365264000000000   199999999.970000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   199999999.970000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.004967568000000000  3000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  3000000000.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000 40000000000.000001000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000001000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.002592972000000000           0.030000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.030000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.003600000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915       -0.000568710000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392       -0.072000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394       -0.072000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000      340000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000      340000.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43222340000.000000000000000000           0.000000000000000000      300000.000000000000000000       40000.000000000000000000 43222680000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 6.3 Unsuccessfully Unlock 12M Locked Token
+1
+> 
+RESULT: token.finalised=true
+RESULT: token.totalSupply=43222340000
+RESULT: token.totalSupplyLocked(6M/8M/12M)=0 / 300000 / 40000
+RESULT: token.totalSupplyLocked=340000
+RESULT: token.totalSupplyUnlocked=43222000000
+RESULT: lockedToken.totalSupplyLocked6M=0
+RESULT: lockedToken.totalSupplyLocked8M=300000
+RESULT: lockedToken.totalSupplyLocked12M=40000
+RESULT: lockedToken.totalSupplyLocked=340000
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+... 
+RESULT: Waiting until locked 8M date at 1507773871 Thu, 12 Oct 2017 10:04:31 HKT currentDate=Thu, 12 Oct 2017 10:04:52 HKT
+> 
+... 
+> 
+... 
+RESULT: Waited until locked 8M date at 1507773871 Thu, 12 Oct 2017 10:04:31 HKT currentDate=Thu, 12 Oct 2017 10:04:52 HKT
+> 
+> 
+> 
+> 
+> 
+RESULT: Test 7.1 Successfully Unlock 8M Locked Token
+> 
+> 
+... 
+> 
+RESULT: tx7_1_1 gas=4000000 gasUsed=31467 costETH=0.000566406 costUSD=0.21545517834 @ ETH/USD=380.39 gasPrice=18000000000 block=2287 txId=0x4712411c3c8f66571d8e5c901c8066abb56ffe21bda38d004650acbf6a9c4679
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      230.231370812000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.071240220000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.002469672000000000     9999999.999999000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     9999999.999999000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.001365264000000000   199999999.970000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   199999999.970000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.004967568000000000  3000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  3000000000.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000 40000000000.000001000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000001000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.002592972000000000           0.030000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.030000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.003600000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915       -0.000568710000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392       -0.072566406000000000      300000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394       -0.072000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000       40000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43222340000.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000 43222380000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 7.1 Successfully Unlock 8M Locked Token
+1
+> 
+RESULT: token.finalised=true
+RESULT: token.totalSupply=43222340000
+RESULT: token.totalSupplyLocked(6M/8M/12M)=0 / 0 / 40000
+RESULT: token.totalSupplyLocked=40000
+RESULT: token.totalSupplyUnlocked=43222300000
+RESULT: lockedToken.totalSupplyLocked6M=0
+RESULT: lockedToken.totalSupplyLocked8M=0
+RESULT: lockedToken.totalSupplyLocked12M=40000
+RESULT: lockedToken.totalSupplyLocked=40000
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+RESULT: Transfer Event 0: from=0x2af991f1ee98b6c00860c1392f1f1d441c099b53 to=0xaeea63b5479b50f79583ec49dacdcf86ddeff392 value=300000 block=2287
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+RESULT: Test 7.2 Unsuccessfully Unlock 12M Locked Token
+> 
+> 
+... 
+> 
+RESULT: tx7_2_1 gas=4000000 gasUsed=4000000 costETH=0.072 costUSD=27.38808 @ ETH/USD=380.39 gasPrice=18000000000 block=2291 txId=0xfdae403ea7b0d7efb358fdfec3d6d5f7f9254dc14899e155fc70f5d8e9274b23
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      250.303370812000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.071240220000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.002469672000000000     9999999.999999000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     9999999.999999000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.001365264000000000   199999999.970000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   199999999.970000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.004967568000000000  3000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  3000000000.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000 40000000000.000001000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000001000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.002592972000000000           0.030000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.030000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.003600000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915       -0.000568710000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392       -0.072566406000000000      300000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394       -0.144000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000       40000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43222340000.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000 43222380000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 7.2 Unsuccessfully Unlock 12M Locked Token
+1
+> 
+RESULT: token.finalised=true
+RESULT: token.totalSupply=43222340000
+RESULT: token.totalSupplyLocked(6M/8M/12M)=0 / 0 / 40000
+RESULT: token.totalSupplyLocked=40000
+RESULT: token.totalSupplyUnlocked=43222300000
+RESULT: lockedToken.totalSupplyLocked6M=0
+RESULT: lockedToken.totalSupplyLocked8M=0
+RESULT: lockedToken.totalSupplyLocked12M=40000
+RESULT: lockedToken.totalSupplyLocked=40000
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+... 
+RESULT: Waiting until locked 12M date at 1507773931 Thu, 12 Oct 2017 10:05:31 HKT currentDate=Thu, 12 Oct 2017 10:05:32 HKT
+> 
+... 
+> 
+... 
+RESULT: Waited until locked 12M date at 1507773931 Thu, 12 Oct 2017 10:05:31 HKT currentDate=Thu, 12 Oct 2017 10:05:32 HKT
+> 
+> 
+> 
+> 
+RESULT: Test 8.1 Successfully Unlock 12M Locked Token
+> 
+> 
+... 
+> 
+RESULT: tx8_1_1 gas=4000000 gasUsed=30866 costETH=0.000555588 costUSD=0.21134011932 @ ETH/USD=380.39 gasPrice=18000000000 block=2294 txId=0x249fddf68e5ee09c30953c8cb617ecbed31befc9b726751af06c6fc374d70963
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      265.303926400000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.071240220000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.002469672000000000     9999999.999999000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     9999999.999999000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.001365264000000000   199999999.970000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   199999999.970000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.004967568000000000  3000000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  3000000000.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000 40000000000.000001000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000001000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.002592972000000000           0.030000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.030000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.003600000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915       -0.000568710000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392       -0.072566406000000000      300000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394       -0.144555588000000000       40000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43222340000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 43222340000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 8.1 Successfully Unlock 12M Locked Token
+1
+> 
+RESULT: token.finalised=true
+RESULT: token.totalSupply=43222340000
+RESULT: token.totalSupplyLocked(6M/8M/12M)=0 / 0 / 0
+RESULT: token.totalSupplyLocked=0
+RESULT: token.totalSupplyUnlocked=43222340000
+RESULT: lockedToken.totalSupplyLocked6M=0
+RESULT: lockedToken.totalSupplyLocked8M=0
+RESULT: lockedToken.totalSupplyLocked12M=0
+RESULT: lockedToken.totalSupplyLocked=0
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+RESULT: Transfer Event 0: from=0x2af991f1ee98b6c00860c1392f1f1d441c099b53 to=0xaffa4d3a80add8ce4018540e056dacb649589394 value=40000 block=2294
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+> 
+RESULT: Test 9.1 Burn Tokens
+> 
+> 
+> 
+> 
+> 
+... 
+> 
+> 
+> 
+... 
+> 
+RESULT: tx9_1_1 gas=100000 gasUsed=24236 costETH=0.000436248 costUSD=0.16594437672 @ ETH/USD=380.39 gasPrice=18000000000 block=2298 txId=0x6fed21a2a6cff4bae67e07939064164f372e2ef682c6269f9f5f989633d48f62
+> 
+RESULT: tx9_1_2 gas=100000 gasUsed=100000 costETH=0.0018 costUSD=0.684702 @ ETH/USD=380.39 gasPrice=18000000000 block=2298 txId=0x10791b51ba0b2d9af4ab5b0979a926393837c7fb45f29c0c72178b6e32e2c74e
+> 
+RESULT: tx9_1_3 gas=100000 gasUsed=44208 costETH=0.000795744 costUSD=0.30269306016 @ ETH/USD=380.39 gasPrice=18000000000 block=2298 txId=0xbbb15e914bffa6f0a39a552f2f45c142d9e4c21569936752ead03552dc778841
+> 
+RESULT: tx9_1_4 gas=100000 gasUsed=44272 costETH=0.000796896 costUSD=0.30313126944 @ ETH/USD=380.39 gasPrice=18000000000 block=2298 txId=0x090207973348c8036578eaa14618b4d6223678d88e1dd750bb057f5e5637681b
+> 
+RESULT: tx9_1_5 gas=100000 gasUsed=47451 costETH=0.000854118 costUSD=0.32489794602 @ ETH/USD=380.39 gasPrice=18000000000 block=2301 txId=0xa23ea6fb71c4b3806f5bc95a9efbacfac0d89c5047e2df688e85b59f8cde0be0
+> 
+RESULT: tx9_1_6 gas=100000 gasUsed=32515 costETH=0.00058527 costUSD=0.2226308553 @ ETH/USD=380.39 gasPrice=18000000000 block=2301 txId=0xbefcb7178445bbdc053f26ad0223139a0d8950d05520d134c9d0e4e64413de8b
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      300.309194676000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.071240220000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.002905920000000000     9999999.999999000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     9999999.999999000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.003015126000000000   199999996.970000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   199999996.970000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.005764464000000000  2999999600.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  2999999600.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.001800000000000000 40000000000.000001000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000001000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.002592972000000000           0.030000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.030000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.004185270000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915       -0.000568710000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392       -0.072566406000000000      300000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394       -0.144555588000000000       40000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000         403.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000         403.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43222340000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 43222340000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 9.1 Burn Tokens - burn 0.0001 HAZ ac2. CHECK no movement
+1
+> 
+RESULT: PASS Test 9.1 Burn Tokens - burn 0.000001 HAZ ac5. CHECK no movement
+1
+> 
+RESULT: PASS Test 9.1 Burn Tokens - approve burn 3 HAZ ac3
+1
+> 
+RESULT: PASS Test 9.1 Burn Tokens - approve burn 400 HAZ ac4
+1
+> 
+RESULT: PASS Test 9.1 Burn Tokens - burn 3 HAZ ac3 from ac3. CHECK for movement
+1
+> 
+RESULT: PASS Test 9.1 Burn Tokens - burn 400 HAZ ac4 from ac8. CHECK for movement
+1
+> 
+RESULT: token.finalised=true
+RESULT: token.totalSupply=43222339597
+RESULT: token.totalSupplyLocked(6M/8M/12M)=0 / 0 / 0
+RESULT: token.totalSupplyLocked=0
+RESULT: token.totalSupplyUnlocked=43222339597
+RESULT: lockedToken.totalSupplyLocked6M=0
+RESULT: lockedToken.totalSupplyLocked8M=0
+RESULT: lockedToken.totalSupplyLocked12M=0
+RESULT: lockedToken.totalSupplyLocked=0
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+RESULT: Approval Event 0: owner=0xa44a08d3f6933c69212114bb66e2df1813651844 spender=0x0000000000000000000000000000000000000000 400 block=2298
+RESULT: Approval Event 1: owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 spender=0x0000000000000000000000000000000000000000 3 block=2298
+RESULT: Transfer Event 0: from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 to=0x0000000000000000000000000000000000000000 value=3 block=2301
+RESULT: Transfer Event 1: from=0xa44a08d3f6933c69212114bb66e2df1813651844 to=0x0000000000000000000000000000000000000000 value=400 block=2301
+> 
+RESULT: 
+> 
+> 
+> 
+> 
+> 
+RESULT: Test 10.1 Change Ownership
+> 
+> 
+... 
+> 
+> 
+... 
+> 
+RESULT: tx10_1_1 gas=100000 gasUsed=43934 costETH=0.000790812 costUSD=0.30081697668 @ ETH/USD=380.39 gasPrice=18000000000 block=2303 txId=0x1c2a0485ac0fda0d7172ceb6c706f3ad6a1309a8f570b56556f60bbdc111a5ca
+> 
+RESULT: tx10_1_2 gas=100000 gasUsed=28721 costETH=0.000516978 costUSD=0.19665326142 @ ETH/USD=380.39 gasPrice=18000000000 block=2305 txId=0x957cdda6d5ca3eb50365aa88bd7d7788463a6dd6e916c69e74a7351e75e8ba8e
+> 
+RESULT:  # Account                                             EtherBalanceChange                 Unlocked Token                      Locked 6M                      Locked 8M                     Locked 12M                          Total Name
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      320.309985488000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.072031032000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.002905920000000000     9999999.999999000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     9999999.999999000000000000 Account #2 - KYCed
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.003015126000000000   199999996.970000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000   199999996.970000000000000000 Account #3 - KYCed
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844       -0.005764464000000000  2999999600.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000  2999999600.000000000000000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.001800000000000000 40000000000.000001000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 40000000000.000001000000000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
+RESULT:  8 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec       -0.002592972000000000           0.030000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.030000000000000000 Account #7
+RESULT:  9 0xa88a05d2b88283ce84c8325760b72a64591279a2       -0.004185270000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #8
+RESULT: 10 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #9
+RESULT: 11 0xaaaa9de1e6c564446ebca0fd102d8bd92093c756        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #10
+RESULT: 12 0xabba43e7594e3b76afb157989e93c6621497fd4b        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #11
+RESULT: 13 0xacca534c9f62ab495bd986e002ddf0f054caae4f        0.000000000000000000    10000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000    10000000.000000000000000000 Account #12 - Unlocked
+RESULT: 14 0xadda9b762a00ff12711113bfdc36958b73d7f915       -0.000568710000000000     2000000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000     2000000.000000000000000000 Account #13 - 6M Locked
+RESULT: 15 0xaeea63b5479b50f79583ec49dacdcf86ddeff392       -0.072566406000000000      300000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000      300000.000000000000000000 Account #14 - 8M Locked
+RESULT: 16 0xaffa4d3a80add8ce4018540e056dacb649589394       -0.144555588000000000       40000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000       40000.000000000000000000 Account #15 - 12M Locked
+RESULT: 17 0xbbbb34fa53a801b5f298744490a1596438bbbe50        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #16
+RESULT: 18 0x0000000000000000000000000000000000000000        0.000000000000000000         403.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000         403.000000000000000000 Burn Account
+RESULT: 19 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 HAZ 'Hazza Network Token' *
+RESULT: 20 0x2af991f1ee98b6c00860c1392f1f1d441c099b53        0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 Locked Tokens
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT:                                                                           43222340000.000000000000000000           0.000000000000000000           0.000000000000000000           0.000000000000000000 43222340000.000000000000000000 Total Token Balances *
+RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ------------------------------ ------------------------------ ------------------------------ ---------------------------
+RESULT: * Note that the sum of all the locked tokens is represented in the unlocked balance at the token contract address, and this will be double counted in the grand total balance above
+RESULT: 
+> 
+RESULT: PASS Test 10.1 Change Ownership - Change owner
+1
+> 
+RESULT: PASS Test 10.1 Change Ownership - Accept ownership
+1
+> 
+RESULT: token.finalised=true
+RESULT: token.totalSupply=43222339597
+RESULT: token.totalSupplyLocked(6M/8M/12M)=0 / 0 / 0
+RESULT: token.totalSupplyLocked=0
+RESULT: token.totalSupplyUnlocked=43222339597
+RESULT: lockedToken.totalSupplyLocked6M=0
+RESULT: lockedToken.totalSupplyLocked8M=0
+RESULT: lockedToken.totalSupplyLocked12M=0
+RESULT: lockedToken.totalSupplyLocked=0
+RESULT: token.owner=0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e
+RESULT: token.newOwner=0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e
+RESULT: OwnershipTransferred Event 0: from=0xa11aae29840fbb5c86e6fd4cf809eba183aef433 to=0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e 2305
+> 
+RESULT: 
+> 
+> 
