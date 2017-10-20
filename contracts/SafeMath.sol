@@ -1,7 +1,7 @@
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.15;
 
 // ----------------------------------------------------------------------------
-// HAZ 'HazzaNetwork Token' contract - ERC20 Token Interface
+// HAZ 'Hazza Network Token' contract safe maths
 //
 // Refer to http://hazza.network for further information.
 //

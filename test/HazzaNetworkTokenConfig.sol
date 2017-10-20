@@ -1,7 +1,7 @@
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.15;
 
 // ----------------------------------------------------------------------------
-// HAZ 'HazzaNetwork Token' contract - ERC20 Token Interface
+// HAZ 'Hazza Network Token' contract configuration
 //
 // Refer to http://hazza.network for further information.
 //
@@ -32,7 +32,7 @@ contract HazzaNetworkTokenConfig {
     // Do not use the `now` function here
     // Start - Nov 8 0000 HKT; Nov 7 1600 GMT
     // ------------------------------------------------------------------------
-    uint public constant START_DATE = 1507773631; // Thu Oct 12 02:00:31 UTC 2017
+    uint public constant START_DATE = 1508458374; // Fri Oct 20 00:12:54 UTC 2017
 
     // ------------------------------------------------------------------------
     // dates for locked tokens

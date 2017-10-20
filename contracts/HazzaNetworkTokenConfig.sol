@@ -1,7 +1,7 @@
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.15;
 
 // ----------------------------------------------------------------------------
-// HAZ 'HazzaNetwork Token' contract - ERC20 Token Interface
+// HAZ 'Hazza Network Token' contract configuration
 //
 // Refer to http://hazza.network for further information.
 //
@@ -10,7 +10,7 @@ pragma solidity ^0.4.11;
 // ----------------------------------------------------------------------------
 
 // ----------------------------------------------------------------------------
-// HazzaNetwork crowdsale token smart contract - configuration parameters
+// Hazza Network crowdsale token smart contract - configuration parameters
 // ----------------------------------------------------------------------------
 contract HazzaNetworkTokenConfig {
 

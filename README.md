@@ -86,10 +86,10 @@ Following are the functions that can be called at the different phases of the co
 
 ## After 6 months, 8 months, and 12 months
 
-* Participants with locked tokens can called the `lockedTokens.unlock6M()` , `lockedTokens.unlock8M()` and `lockedTokens.unlock2()` to unlock their tokens
+* Participants with locked tokens can call the `lockedTokens.unlock6M()` , `lockedTokens.unlock8M()` and `lockedTokens.unlock12M()` to unlock their tokens
   * Find the address of the LockedTokens contract from the lockedTokens variable in the token contract
   * Watch the LockedTokens address using the LockedTokens Application Binary Interface
-  * Execute `unlock3M()` after 3 months has passed, `unlock6M()` after 6 months has passed, or `unlock12M()` after 12 months has passed, to unlock the tokens
+  * Execute `unlock6M()` after 6 months has passed, `unlock9M()` after 9 months has passed, or `unlock12M()` after 12 months has passed, to unlock the tokens
 
 <br />
 
@@ -109,7 +109,7 @@ See [test](test) for details.
 * Check Solidity [release history](https://github.com/ethereum/solidity/releases) for potential bugs 
 * Deploy contract to Mainnet
 * Verify the source code on EtherScan.io
-  * Verify the main HazzaNetwork contract
+  * Verify the main Hazza Network contract
   * Verify the LockedToken contract
 
 <br />

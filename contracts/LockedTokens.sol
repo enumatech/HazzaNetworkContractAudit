@@ -1,7 +1,7 @@
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.15;
 
 // ----------------------------------------------------------------------------
-// HAZ 'HazzaNetwork Token' contract - ERC20 Token Interface
+// HAZ 'Hazza Network Token' contract locked tokens
 //
 // Refer to http://hazza.network for further information.
 //
@@ -56,7 +56,7 @@ contract LockedTokens is HazzaNetworkTokenConfig {
     }
 
     // ------------------------------------------------------------------------
-    // Modifier to mark that a function can only be executed by the owner
+    // Modifier to mark that a function can only be executed by the token contract
     // ------------------------------------------------------------------------
     modifier onlyTokenContract {
         require(msg.sender == tokenContractAddress);
@@ -81,7 +81,7 @@ contract LockedTokens is HazzaNetworkTokenConfig {
     }
 
     // ------------------------------------------------------------------------
-    // Add to 8m locked balances and totalSupply
+    // Add to 12m locked balances and totalSupply
     // ------------------------------------------------------------------------
     function add12M(address account, uint value) onlyTokenContract {
         balancesLocked12M[account] = balancesLocked12M[account].add(value);

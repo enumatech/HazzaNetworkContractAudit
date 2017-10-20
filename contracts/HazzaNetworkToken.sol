@@ -1,7 +1,7 @@
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.15;
 
 // ----------------------------------------------------------------------------
-// HAZ 'HazzaNetwork Token' contract - ERC20 Token Interface
+// HAZ 'Hazza Network Token' contract - ERC20 Token Interface implementation
 //
 // Refer to http://hazza.network for further information.
 //
@@ -153,7 +153,7 @@ contract HazzaNetworkToken is ERC20Token, HazzaNetworkTokenConfig {
     LockedTokens public lockedTokens;
 
     // ------------------------------------------------------------------------
-    // participant's accounts need to be KYC verified KYC before
+    // participant's accounts need to be KYC verified before
     // the participant can move their tokens
     // ------------------------------------------------------------------------
     mapping(address => bool) public kycRequired;
@@ -184,7 +184,6 @@ contract HazzaNetworkToken is ERC20Token, HazzaNetworkTokenConfig {
 
         totalSupply = totalSupply.add(lockedTokens.totalSupplyLocked());
 
-        // Can only finalise once
         finalised = true;
     }
 
@@ -242,7 +241,6 @@ contract HazzaNetworkToken is ERC20Token, HazzaNetworkTokenConfig {
 
     // ------------------------------------------------------------------------
     // Transfer the balance from owner's account to another account, with KYC
-    // verification check for the participant's first transfer
     // ------------------------------------------------------------------------
     function transfer(address _to, uint _amount) returns (bool success) {
         // Cannot transfer before crowdsale ends
