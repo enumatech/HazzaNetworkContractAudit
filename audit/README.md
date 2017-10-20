@@ -8,6 +8,8 @@ Enuma Technologies was contracted to conduct an audit on the Ethereum smart cont
 <br />
 
 ## Report
+### Second review
+- In commit [157fdbb](https://github.com/anxintl/HazzaNetworkToken/commit/157fdbb00d50d27d92e09ef5c3b02ba10ebc6eae), the team chose to address mostly cosmetic issues such as typos in comments, in order to minimize the risk of additional code changes. They did move to Solidity 0.4.15 and also made an adjustment to START_DATE. No new issues found.
 ### First review
 #### **Low Severity**
 - [Multiple .sol files]
