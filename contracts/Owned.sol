@@ -1,7 +1,7 @@
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.15;
 
 // ----------------------------------------------------------------------------
-// HAZ 'HazzaNetwork Token' contract - ERC20 Token Interface
+// HAZ 'Hazza Network Token' contract ownership
 //
 // Refer to http://hazza.network for further information.
 //
@@ -50,8 +50,8 @@ contract Owned {
     // ------------------------------------------------------------------------
     function acceptOwnership() {
         require(msg.sender == newOwner);
-        OwnershipTransferred(owner, newOwner);
         owner = newOwner;
+        OwnershipTransferred(owner, newOwner);
     }
     event OwnershipTransferred(address indexed _from, address indexed _to);
 }
